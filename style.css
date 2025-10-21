@@ -190,9 +190,15 @@ p {
     display: block;
 }
 
+.product-title {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
 .product-box {
     max-width: 500px;
-    margin: 3rem auto;
+    margin: 0 auto 3rem;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
