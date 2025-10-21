@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ozean-Wächter Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="chatbot.css">
+</head>
+<body>
+    <div class="chatbot-container">
+        <div class="chatbot-header">
+            <img src="images/Screenshot_20251021_092246_Chrome.jpg" alt="Ozean-Wächter" class="chatbot-avatar">
+            <h2>Ozean-Wächter</h2>
+            <p class="chatbot-subtitle">Dein persönlicher Nischen-Stratege</p>
+        </div>
+
+        <div class="chatbot-body">
+            <div id="question-container">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+                <p class="progress-text" id="progress-text">Frage 1/10</p>
+
+                <div class="question-card" id="question-card">
+                    <h3 id="question-title">Was ist deine berufliche Erfahrung?</h3>
+                    <p id="question-subtitle">Erzähl mir von deinem Hintergrund, deinen Jobs, deiner Ausbildung.</p>
+                    <p id="question-example">z.B. 10 Jahre im Marketing, Studium BWL, Nebenjob als Fitnesstrainer...</p>
+                    
+                    <textarea id="answer-input" placeholder="Deine Antwort hier..." rows="6"></textarea>
+                    
+                    <button class="cta-button" id="next-button" onclick="nextQuestion()">Weiter →</button>
+                </div>
+            </div>
+
+            <div id="result-container" style="display: none;">
+                <h2>🎉 Dein personalisierter Prompt ist fertig!</h2>
+                <p>Kopiere diesen Prompt und füge ihn in eine der folgenden KIs ein:</p>
+                
+                <div class="ai-buttons">
+                    <a href="https://claude.ai" target="_blank" class="ai-button claude">
+                        <span>📘</span> Claude.ai
+                    </a>
+                    <a href="https://gemini.google.com" target="_blank" class="ai-button gemini">
+                        <span>✨</span> Gemini
+                    </a>
+                    <a href="https://www.perplexity.ai" target="_blank" class="ai-button perplexity">
+                        <span>🔍</span> Perplexity
+                    </a>
+                    <a href="https://chat.openai.com" target="_blank" class="ai-button chatgpt">
+                        <span>💬</span> ChatGPT
+                    </a>
+                </div>
+
+                <div class="prompt-box">
+                    <textarea id="generated-prompt" readonly rows="15"></textarea>
+                    <button class="cta-button" onclick="copyPrompt()">📋 Prompt kopieren</button>
+                </div>
+
+                <button class="cta-button secondary" onclick="resetChat()">🔄 Nochmal von vorne</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="chatbot.js"></script>
+</body>
+</html>
+
