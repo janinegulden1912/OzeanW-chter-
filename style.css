@@ -50,9 +50,28 @@ p {
 
 /* Hero Section */
 .hero {
-    text-align: center;
     padding: 4rem 2rem;
     background: linear-gradient(135deg, #fef5f7 0%, #ffffff 100%);
+}
+
+.hero-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero-text {
+    text-align: left;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
 .sparkle-icon {
@@ -98,9 +117,43 @@ p {
     box-shadow: 0 6px 20px rgba(255, 192, 211, 0.4);
 }
 
+/* Product Showcase */
+.product-showcase {
+    padding: 4rem 2rem;
+    background: #ffffff;
+}
+
+.product-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.product-features {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0;
+}
+
+.product-features li {
+    padding: 0.5rem 0;
+    font-size: 1.125rem;
+    color: #4a5568;
+}
+
 /* Problem Section */
 .problem {
-    background: #ffffff;
+    background: linear-gradient(135deg, #fef5f7 0%, #ffffff 100%);
     padding: 4rem 2rem;
     text-align: center;
 }
@@ -225,6 +278,39 @@ p {
     color: #4a5568;
 }
 
+/* Testimonial Section */
+.testimonial {
+    padding: 4rem 2rem;
+    background: #ffffff;
+}
+
+.testimonial-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.testimonial-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.testimonial-text h2 {
+    color: #e91e8c;
+    margin-bottom: 1.5rem;
+}
+
+.testimonial-text p {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
 /* Contact Section */
 .contact {
     padding: 4rem 2rem;
@@ -338,6 +424,16 @@ footer p {
 
     .pricing-grid {
         grid-template-columns: 1fr;
+    }
+
+    .hero-content,
+    .product-content,
+    .testimonial-content {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-text {
+        text-align: center;
     }
 
     .container {
