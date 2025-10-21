@@ -1,0 +1,347 @@
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: #2d3748;
+    background: linear-gradient(135deg, #fef5f7 0%, #ffffff 50%, #fef5f7 100%);
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Typography */
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1a202c;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2d3748;
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+    color: #4a5568;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, #fef5f7 0%, #ffffff 100%);
+}
+
+.sparkle-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+    font-size: 1.25rem;
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    color: #4a5568;
+}
+
+.highlight {
+    color: #e91e8c;
+    font-weight: 600;
+}
+
+.highlight-bold {
+    color: #e91e8c;
+    font-weight: 700;
+}
+
+/* CTA Button - Pastel Pink to Light Grey Gradient */
+.cta-button {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #ffffff;
+    background: linear-gradient(135deg, #ffc0d3 0%, #d4d4d4 100%);
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 192, 211, 0.3);
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 192, 211, 0.4);
+}
+
+/* Problem Section */
+.problem {
+    background: #ffffff;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.problem h2 {
+    color: #2d3748;
+    max-width: 900px;
+    margin: 0 auto 1.5rem;
+}
+
+/* Solution Section */
+.solution {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: linear-gradient(135deg, #fef5f7 0%, #ffffff 100%);
+}
+
+.section-title {
+    color: #e91e8c;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.ocean-guardian-image {
+    max-width: 600px;
+    margin: 2rem auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.ocean-guardian-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.welcome-title {
+    font-size: 1.5rem;
+    color: #2d3748;
+    margin: 2rem auto 1rem;
+    max-width: 800px;
+}
+
+.ready-section {
+    margin-top: 3rem;
+}
+
+.ready-text {
+    color: #e91e8c;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Pricing Section */
+.pricing {
+    padding: 4rem 2rem;
+    background: #ffffff;
+}
+
+.pricing h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    color: #2d3748;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.pricing-card {
+    background: linear-gradient(135deg, #fef5f7 0%, #ffffff 100%);
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.pricing-card:hover {
+    transform: translateY(-5px);
+}
+
+.pricing-card.featured {
+    border: 3px solid #e91e8c;
+    position: relative;
+}
+
+.pricing-badge {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.price {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #e91e8c;
+    margin: 1rem 0;
+}
+
+.pricing-note {
+    font-size: 0.9rem;
+    color: #718096;
+    margin-bottom: 1.5rem;
+    min-height: 40px;
+}
+
+.features-list {
+    list-style: none;
+    text-align: left;
+    margin: 1.5rem 0;
+    padding: 0;
+}
+
+.features-list li {
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    color: #4a5568;
+}
+
+/* Contact Section */
+.contact {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: linear-gradient(135deg, #fef5f7 0%, #ffffff 100%);
+}
+
+.contact a {
+    color: #e91e8c;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: #2d3748;
+    color: #ffffff;
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer-links {
+    margin-bottom: 1rem;
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 0.9rem;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    color: #cbd5e0;
+    font-size: 0.9rem;
+}
+
+/* Legal Pages */
+.legal-page {
+    padding: 4rem 2rem;
+    background: #ffffff;
+}
+
+.legal-page h1 {
+    color: #2d3748;
+    margin-bottom: 2rem;
+}
+
+.legal-page h2 {
+    color: #e91e8c;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.legal-page h3 {
+    color: #2d3748;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+}
+
+.legal-page h4 {
+    color: #4a5568;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.legal-page p {
+    margin-bottom: 1rem;
+    line-height: 1.8;
+}
+
+.legal-page ul {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.legal-page li {
+    margin-bottom: 0.5rem;
+    line-height: 1.8;
+}
+
+.legal-page a {
+    color: #e91e8c;
+    text-decoration: none;
+}
+
+.legal-page a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .pricing-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+}
+
