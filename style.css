@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 2rem;
 }
@@ -23,7 +23,7 @@ body {
 h1 {
     font-size: 2.5rem;
     font-weight: 700;
-    color: #1a202c;
+    color: #2d3748;
     margin-bottom: 1rem;
     line-height: 1.2;
 }
@@ -33,6 +33,7 @@ h2 {
     font-weight: 700;
     color: #2d3748;
     margin-bottom: 1.5rem;
+    text-align: center;
 }
 
 h3 {
@@ -48,44 +49,6 @@ p {
     color: #4a5568;
 }
 
-/* Hero Section */
-.hero {
-    padding: 4rem 2rem;
-    background: linear-gradient(135deg, #fef5f7 0%, #ffffff 100%);
-}
-
-.hero-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.hero-text {
-    text-align: left;
-}
-
-.hero-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-}
-
-.sparkle-icon {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-}
-
-.hero-subtitle {
-    font-size: 1.25rem;
-    max-width: 800px;
-    margin: 0 auto 2rem;
-    color: #4a5568;
-}
-
 .highlight {
     color: #e91e8c;
     font-weight: 600;
@@ -96,7 +59,243 @@ p {
     font-weight: 700;
 }
 
-/* CTA Button - Pastel Pink to Light Grey Gradient */
+/* Hero Profile Section */
+.hero-profile {
+    text-align: center;
+    padding: 3rem 2rem;
+    background: linear-gradient(135deg, #fef5f7 0%, #ffffff 100%);
+}
+
+.profile-image-wrapper {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 1.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-name {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #2d3748;
+    margin-bottom: 0.5rem;
+}
+
+.profile-title {
+    font-size: 1.125rem;
+    color: #718096;
+    margin-bottom: 3rem;
+}
+
+.main-headline {
+    font-size: 2.5rem;
+    color: #e8a5c2;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.sub-headline {
+    font-size: 2rem;
+    color: #2d3748;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.hero-text {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.125rem;
+    line-height: 1.8;
+}
+
+/* Problem Cards */
+.problem-cards {
+    padding: 3rem 2rem;
+    background: #ffffff;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.emoji {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    color: #2d3748;
+    margin-bottom: 1rem;
+}
+
+.card p {
+    color: #4a5568;
+    line-height: 1.7;
+}
+
+/* Solution Section */
+.solution-section {
+    padding: 3rem 2rem;
+    background: linear-gradient(135deg, #fef5f7 0%, #ffffff 100%);
+    text-align: center;
+}
+
+.solution-intro {
+    font-size: 1.5rem;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+/* Ocean Guardian Intro */
+.ocean-intro {
+    padding: 3rem 2rem;
+    background: #ffffff;
+}
+
+.ocean-image {
+    max-width: 500px;
+    margin: 2rem auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.ocean-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.benefits-list {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0;
+}
+
+.benefits-list li {
+    padding: 0.75rem 0;
+    font-size: 1.125rem;
+    color: #4a5568;
+}
+
+.prompt-info {
+    background: #f7fafc;
+    padding: 1.5rem;
+    border-radius: 15px;
+    margin: 2rem 0;
+}
+
+.special-box {
+    background: linear-gradient(135deg, #fef5f7 0%, #ffffff 100%);
+    border: 2px solid #e91e8c;
+    border-radius: 20px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+}
+
+/* How It Works */
+.how-it-works {
+    padding: 3rem 2rem;
+    background: linear-gradient(135deg, #fef5f7 0%, #ffffff 100%);
+}
+
+.ocean-guardian-big {
+    max-width: 600px;
+    margin: 2rem auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.ocean-guardian-big img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.step-card {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.step-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.step-title {
+    color: #e91e8c;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.info-box {
+    background: #e6f7ff;
+    border: 1px solid #91d5ff;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+/* Examples */
+.examples {
+    padding: 3rem 2rem;
+    background: #ffffff;
+}
+
+.examples-subtitle {
+    text-align: center;
+    color: #718096;
+    margin-bottom: 2rem;
+}
+
+.example-card {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.example-niche {
+    color: #e91e8c;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+.example-description {
+    color: #4a5568;
+    margin: 1rem 0;
+}
+
+.ocean-score {
+    font-weight: 600;
+    color: #2d3748;
+}
+
+.score {
+    color: #e91e8c;
+    font-size: 1.25rem;
+}
+
+/* CTA Button */
 .cta-button {
     display: inline-block;
     padding: 1rem 2.5rem;
@@ -117,107 +316,10 @@ p {
     box-shadow: 0 6px 20px rgba(255, 192, 211, 0.4);
 }
 
-/* Product Showcase */
-.product-showcase {
-    padding: 4rem 2rem;
-    background: #ffffff;
-}
-
-.product-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.product-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-}
-
-.product-features {
-    list-style: none;
-    padding: 0;
-    margin: 1.5rem 0;
-}
-
-.product-features li {
-    padding: 0.5rem 0;
-    font-size: 1.125rem;
-    color: #4a5568;
-}
-
-/* Problem Section */
-.problem {
-    background: linear-gradient(135deg, #fef5f7 0%, #ffffff 100%);
-    padding: 4rem 2rem;
-    text-align: center;
-}
-
-.problem h2 {
-    color: #2d3748;
-    max-width: 900px;
-    margin: 0 auto 1.5rem;
-}
-
-/* Solution Section */
-.solution {
-    padding: 4rem 2rem;
-    text-align: center;
-    background: linear-gradient(135deg, #fef5f7 0%, #ffffff 100%);
-}
-
-.section-title {
-    color: #e91e8c;
-    font-size: 2rem;
-    margin-bottom: 1rem;
-}
-
-.ocean-guardian-image {
-    max-width: 600px;
-    margin: 2rem auto;
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-}
-
-.ocean-guardian-image img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.welcome-title {
-    font-size: 1.5rem;
-    color: #2d3748;
-    margin: 2rem auto 1rem;
-    max-width: 800px;
-}
-
-.ready-section {
-    margin-top: 3rem;
-}
-
-.ready-text {
-    color: #e91e8c;
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
-}
-
 /* Pricing Section */
 .pricing {
     padding: 4rem 2rem;
-    background: #ffffff;
-}
-
-.pricing h2 {
-    text-align: center;
-    margin-bottom: 3rem;
-    color: #2d3748;
+    background: linear-gradient(135deg, #fef5f7 0%, #ffffff 100%);
 }
 
 .pricing-grid {
@@ -229,7 +331,7 @@ p {
 }
 
 .pricing-card {
-    background: linear-gradient(135deg, #fef5f7 0%, #ffffff 100%);
+    background: #ffffff;
     border-radius: 20px;
     padding: 2rem;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -242,7 +344,6 @@ p {
 
 .pricing-card.featured {
     border: 3px solid #e91e8c;
-    position: relative;
 }
 
 .pricing-badge {
@@ -278,37 +379,39 @@ p {
     color: #4a5568;
 }
 
-/* Testimonial Section */
-.testimonial {
-    padding: 4rem 2rem;
+/* FAQ */
+.faq {
+    padding: 3rem 2rem;
     background: #ffffff;
 }
 
-.testimonial-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.testimonial-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-}
-
-.testimonial-text h2 {
-    color: #e91e8c;
-    margin-bottom: 1.5rem;
-}
-
-.testimonial-text p {
-    font-size: 1.125rem;
-    line-height: 1.8;
+.faq-item {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 1.5rem;
     margin-bottom: 1rem;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+}
+
+.faq-item summary {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #2d3748;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.faq-item summary::-webkit-details-marker {
+    display: none;
+}
+
+.faq-item p {
+    margin-top: 1rem;
+    color: #4a5568;
+    line-height: 1.7;
 }
 
 /* Contact Section */
@@ -372,6 +475,7 @@ footer p {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-size: 1.5rem;
+    text-align: left;
 }
 
 .legal-page h3 {
@@ -422,18 +526,21 @@ footer p {
         font-size: 1.5rem;
     }
 
+    .main-headline {
+        font-size: 2rem;
+    }
+
+    .sub-headline {
+        font-size: 1.5rem;
+    }
+
     .pricing-grid {
         grid-template-columns: 1fr;
     }
 
-    .hero-content,
-    .product-content,
-    .testimonial-content {
-        grid-template-columns: 1fr;
-    }
-
-    .hero-text {
-        text-align: center;
+    .profile-image-wrapper {
+        width: 150px;
+        height: 150px;
     }
 
     .container {
