@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Ozean-Wächter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="chatbot.css">
+    <style>
+        .login-container {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #fef5f7 0%, #ffffff 100%);
+            padding: 2rem;
+        }
+
+        .login-box {
+            background: #ffffff;
+            border-radius: 30px;
+            padding: 3rem;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .login-box h1 {
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #e8a5c2 0%, #6b7280 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .login-box p {
+            color: #718096;
+            margin-bottom: 2rem;
+        }
+
+        .login-form {
+            text-align: left;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 0.5rem;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 1rem;
+            border: 2px solid #e2e8f0;
+            border-radius: 15px;
+            font-size: 1rem;
+            font-family: inherit;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: #e91e8c;
+        }
+
+        .error-message {
+            color: #e53e3e;
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+            display: none;
+        }
+
+        .error-message.show {
+            display: block;
+        }
+
+        .back-link {
+            margin-top: 2rem;
+            display: block;
+            color: #718096;
+            text-decoration: none;
+        }
+
+        .back-link:hover {
+            color: #e91e8c;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <h1>🌊 Willkommen zurück!</h1>
+            <p>Gib dein Passwort ein, um auf den Mitgliederbereich zuzugreifen</p>
+
+            <form class="login-form" onsubmit="checkPassword(event)">
+                <div class="form-group">
+                    <label for="password">Passwort</label>
+                    <input type="password" id="password" placeholder="Dein Passwort eingeben" required>
+                    <p class="error-message" id="error">❌ Falsches Passwort. Bitte versuche es erneut.</p>
+                </div>
+
+                <button type="submit" class="cta-button">Einloggen</button>
+            </form>
+
+            <a href="index.html" class="back-link">← Zurück zur Startseite</a>
+        </div>
+    </div>
+
+    <script>
+        function checkPassword(event) {
+            event.preventDefault();
+            
+            const password = document.getElementById('password').value;
+            const errorMsg = document.getElementById('error');
+            
+            // Standard-Passwort
+            if (password === 'ozean2025standard') {
+                // Speichere Login-Status
+                sessionStorage.setItem('memberAccess', 'standard');
+                window.location.href = 'mitglieder.html';
+            }
+            // Premium-Passwort (mit MRR-Zugang)
+            else if (password === 'ozean2025premium') {
+                sessionStorage.setItem('memberAccess', 'premium');
+                window.location.href = 'mitglieder.html';
+            }
+            else {
+                // Falsches Passwort
+                errorMsg.classList.add('show');
+                document.getElementById('password').value = '';
+            }
+        }
+    </script>
+</body>
+</html>
+

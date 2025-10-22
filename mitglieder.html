@@ -6,8 +6,10 @@
     <title>Mitgliederbereich - Ozean-Wächter</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="chatbot.css">
+    <script src="auth-check.js"></script>
 </head>
 <body>
+    <script>checkAuth();</script>
     <div class="members-area">
         <div class="container">
             <h1>Willkommen im Mitgliederbereich</h1>
@@ -35,7 +37,7 @@
                     <button class="cta-button">Feedback geben</button>
                 </div>
 
-                <div class="dashboard-card mrr-card" onclick="window.location.href='mrr.html'">
+                <div class="dashboard-card mrr-card" onclick="checkMRRAccessAndRedirect()">
                     <div class="card-icon">🚀</div>
                     <h3>MRR-Bereich</h3>
                     <p>Wiederverkäufer-Materialien (nur für Premium & VIP)</p>
@@ -55,6 +57,16 @@
             <p>&copy; 2025 Janine Gülden. Alle Rechte vorbehalten.</p>
         </div>
     </footer>
+    <script>
+        function checkMRRAccessAndRedirect() {
+            const memberAccess = sessionStorage.getItem('memberAccess');
+            if (memberAccess === 'premium') {
+                window.location.href = 'mrr.html';
+            } else {
+                alert('⚠️ Dieser Bereich ist nur für Premium-Mitglieder verfügbar!\n\nUpgrade auf Premium, um Master Resell Rights zu erhalten.');
+            }
+        }
+    </script>
 </body>
 </html>
 
