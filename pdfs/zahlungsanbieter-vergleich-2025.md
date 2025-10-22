@@ -6,51 +6,76 @@ Die richtige Plattform für den Verkauf deiner digitalen Produkte zu finden, kan
 
 ---
 
+## 🎯 Meine persönliche Empfehlung
+
+**Ich nutze selbst Tentary** und habe vorher viele andere Plattformen ausprobiert (Gumroad, Payhip, Lemon Squeezy).
+
+**Warum ich bei Tentary geblieben bin:**
+✅ **Deutscher Support** - Bei Problemen bekomme ich schnell Hilfe auf Deutsch  
+✅ **DSGVO-konform** - Keine Sorgen um Datenschutz  
+✅ **Alles in einem** - Hosting, Zahlungen, E-Mail-Zustellung  
+✅ **Einfach** - In 10 Minuten fertig eingerichtet  
+✅ **Faire Preise** - Ab 9€/Monat lohnt es sich schon  
+
+**Aber:** Tentary ist nicht für jeden die beste Wahl. Wenn du gerade erst startest und noch keine Verkaufe hast, können Alternativen ohne monatliche Kosten besser sein.
+
+**Deshalb zeige ich dir hier alle Optionen - ehrlich und transparent.**
+
+---
+
 ## Schnellvergleich-Tabelle
 
 | Anbieter | Monatliche Kosten | Transaktionsgebühr | Beste für | Link |
 |:---|:---|:---|:---|:---|
-| **Lemon Squeezy** | 0€ | 5% + 0,50€ | Anfänger, SaaS | [lemonsqueezy.com](https://lemonsqueezy.com) |
-| **Payhip** | 0€ oder 29€ oder 99€ | 5% (Free) / 2% (Plus) / 0% (Pro) | Anfänger, Budgetbewusste | [payhip.com](https://payhip.com) |
+| **Tentary** 🏆 | 9€ oder 29€ oder 99€ | 5% (Starter) / 3% (Pro) / 1% (Business) | **Meine Empfehlung!** | [tentary.com](https://tentary.com/?ref=janinek4) |
+| **Lemon Squeezy** | 0€ | 5% + 0,50€ | Starter ohne Budget | [lemonsqueezy.com](https://lemonsqueezy.com) |
+| **Payhip** | 0€ oder 29€ oder 99€ | 5% (Free) / 2% (Plus) / 0% (Pro) | Budgetbewusste | [payhip.com](https://payhip.com) |
 | **Gumroad** | 0€ oder 10$ | 10% + 0,50€ (Free) / 3,5% (Creator) | Kreative, Künstler | [gumroad.com](https://gumroad.com) |
-| **Tentary** | 9€ oder 29€ oder 99€ | 5% (Starter) / 3% (Pro) / 1% (Business) | Deutsche Nutzer | [tentary.com](https://tentary.com/?ref=janinek4) |
 | **SendOwl** | 39$ oder 87$ oder 159$ | 0% | Profis, viele Verkäufe | [sendowl.com](https://sendowl.com) |
 
 ---
 
 ## Detaillierter Vergleich
 
-### 1. Lemon Squeezy 🍋 (Empfehlung!)
+### 1. Tentary 🏆 (Meine #1 Empfehlung!)
 
 **Kosten:**
-- Kein monatliches Abo
-- 5% + 0,50€ pro Transaktion
-- Auszahlungsgebühr: 0% (USA) / 1% (außerhalb USA)
+- **Starter Plan:** 9€/Monat + 5% Gebühr
+- **Pro Plan:** 29€/Monat + 3% Gebühr
+- **Business Plan:** 99€/Monat + 1% Gebühr
 
 **Vorteile:**
-✅ Keine monatlichen Kosten  
-✅ Übernimmt Steuern und MwSt für dich (Merchant of Record)  
-✅ Sehr einfache Einrichtung  
-✅ Perfekt für SaaS und Subscriptions  
-✅ Moderne Oberfläche  
+✅ **Deutscher Anbieter** - Support auf Deutsch!  
+✅ **DSGVO-konform** - Keine Datenschutz-Sorgen  
+✅ **All-in-One** - Hosting, Zahlungen, E-Mail-Zustellung  
+✅ **Sehr einfach** - In 10 Minuten fertig  
+✅ **Professionell** - Sieht gut aus, funktioniert zuverlässig  
 
 **Nachteile:**
-❌ Relativ neu (weniger bekannt)  
-❌ Support nur auf Englisch  
+❌ Monatliche Kosten ab Tag 1  
+❌ Bei wenigen Verkäufen teurer als Alternativen  
 
-**Beispiel-Rechnung (95€ Produkt):**
+**Beispiel-Rechnung (95€ Produkt, Starter Plan):**
 - Verkaufspreis: 95€
-- Lemon Squeezy-Gebühr (5%): 4,75€
-- Fixgebühr: 0,50€
-- **Du bekommst:** 89,75€
+- Tentary-Gebühr (5%): 4,75€
+- Monatliche Kosten: 9€
+- **Du bekommst:** 90,25€ (minus 9€ Abo = 81,25€ netto)
 
-**Beste für:** Anfänger, die keine monatlichen Kosten wollen
+**Warum ich Tentary nutze:**
 
-**Link:** [https://lemonsqueezy.com](https://lemonsqueezy.com)
+Ich habe alle Plattformen ausprobiert und bin bei Tentary geblieben, weil:
+- Der deutsche Support mir bei Problemen sofort hilft
+- Ich mir keine Sorgen um DSGVO machen muss
+- Alles einfach funktioniert - keine technischen Probleme
+- Meine Kunden eine professionelle Kaufabwicklung bekommen
+
+**Beste für:** Alle, die ernsthaft verkaufen wollen und deutschen Support schätzen
+
+**Jetzt anmelden:** [https://tentary.com/?ref=janinek4](https://tentary.com/?ref=janinek4)
 
 ---
 
-### 2. Payhip 💳
+### 2. Lemon Squeezy 🍋
 
 **Kosten:**
 - **Free Plan:** 0€/Monat + 5% Gebühr
@@ -119,7 +144,7 @@ Die richtige Plattform für den Verkauf deiner digitalen Produkte zu finden, kan
 
 ---
 
-### 4. Tentary 🇩🇪 (Mit Affiliate-Link!)
+### 4. Payhip 💳
 
 **Kosten:**
 - **Starter Plan:** 9€/Monat + 5% Gebühr
