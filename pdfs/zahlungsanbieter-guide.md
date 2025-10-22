@@ -13,12 +13,13 @@
 
 ---
 
-## Option 1: Tentary (Am einfachsten!)
+### Option 1: Tentary (Am einfachsten!)
 
 ### Was ist Tentary?
 
 Tentary ist eine All-in-One-Plattform für digitale Produkte. Du brauchst **keine eigene Website** - Tentary hostet alles für dich.
 
+**Kosten:** Ab 9€/Monat + Transaktionsgebühren (siehe unten)
 ### Vorteile:
 ✅ Super einfach - in 10 Minuten fertig  
 ✅ Keine technischen Kenntnisse nötig  
@@ -36,7 +37,7 @@ Tentary ist eine All-in-One-Plattform für digitale Produkte. Du brauchst **kein
 ### Schritt-für-Schritt Anleitung
 
 #### Schritt 1: Konto erstellen
-1. Gehe zu [tentary.com](https://tentary.com)
+1. Gehe zu [tentary.com](https://tentary.com/?ref=janinek4)
 2. Klicke auf "Kostenlos starten"
 3. Registriere dich mit E-Mail und Passwort
 4. Bestätige deine E-Mail-Adresse
@@ -76,9 +77,9 @@ Tentary ist eine All-in-One-Plattform für digitale Produkte. Du brauchst **kein
 ### Kosten bei Tentary
 
 **Gebührenstruktur:**
-- **Free Plan:** 10% Gebühr pro Verkauf + Zahlungsgebühren
-- **Pro Plan (9€/Monat):** 5% Gebühr pro Verkauf + Zahlungsgebühren
-- **Business Plan (29€/Monat):** 3% Gebühr pro Verkauf + Zahlungsgebühren
+- **Starter Plan (9€/Monat):** 5% Gebühr pro Verkauf + Zahlungsgebühren
+- **Pro Plan (29€/Monat):** 3% Gebühr pro Verkauf + Zahlungsgebühren
+- **Business Plan (99€/Monat):** 1% Gebühr pro Verkauf + Zahlungsgebühren
 
 **Beispiel-Rechnung (Free Plan):**
 - Produktpreis: 95€
@@ -86,7 +87,9 @@ Tentary ist eine All-in-One-Plattform für digitale Produkte. Du brauchst **kein
 - Zahlungsgebühr (ca. 2%): 1,90€
 - **Du bekommst:** 83,60€
 
-**Tipp:** Starte mit dem Free Plan und upgrade, wenn du regelmäßig verkaufst!
+**Tipp:** Starte mit dem Starter Plan (9€/Monat) - das lohnt sich schon ab 2-3 Verkäufen!
+
+**Jetzt anmelden:** [https://tentary.com/?ref=janinek4](https://tentary.com/?ref=janinek4)
 
 ---
 

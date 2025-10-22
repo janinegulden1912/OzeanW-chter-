@@ -43,10 +43,12 @@ Mit Master Resell Rights (MRR) hast du das Recht, den Ozean-Wächter als dein ei
 ### Option 1: Tentary (Empfohlen für Anfänger)
 
 **Was ist Tentary?**  
-Eine Plattform zum Verkauf digitaler Produkte. Einfach, schnell, aber kostenpflichtig.
+Eine Plattform zum Verkauf digitaler Produkte. Einfach, schnell.
+
+**Kosten:** Ab 9€/Monat + Transaktionsgebühren
 
 **So geht's:**
-1. Gehe zu [tentary.com](https://tentary.com)
+1. Gehe zu [tentary.com](https://tentary.com/?ref=janinek4)
 2. Erstelle ein Konto
 3. Klicke auf "Neues Produkt"
 4. Lade die Dateien hoch (PDFs, Zugangslink zum Chatbot)
@@ -54,7 +56,10 @@ Eine Plattform zum Verkauf digitaler Produkte. Einfach, schnell, aber kostenpfli
 6. Veröffentliche!
 
 **Kosten:**  
-Tentary nimmt eine Gebühr pro Verkauf (ca. 5-10% + Zahlungsgebühren)
+- Starter Plan: 9€/Monat + 5% Gebühr pro Verkauf
+- Pro Plan: 29€/Monat + 3% Gebühr pro Verkauf
+
+**Jetzt anmelden:** [https://tentary.com/?ref=janinek4](https://tentary.com/?ref=janinek4)
 
 ---
 
