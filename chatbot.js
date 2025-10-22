@@ -208,7 +208,7 @@ function nextQuestion() {
 }
 
 function generatePrompt() {
-    const prompt = `Du bist ein Experte für Nischenfindung und digitales Business. Analysiere folgendes Profil und schlage 3-5 hochprofitable, einzigartige Nischen vor, die perfekt zu dieser Person passen:
+    const prompt = `Du bist ein Experte für Nischenfindung und digitales Marketing. Analysiere folgendes Profil und ÜBERSETZE die Persönlichkeit, Leidenschaften und Fähigkeiten dieser Person in 2-3 hochprofitable, einzigartige DIGITALE MARKETING-NISCHEN, die perfekt zu ihr passen UND echte Erfolgschancen mit nachweisbarer Nachfrage bieten:
 
 PERSÖNLICHKEIT: ${answers.question1}
 LEIDENSCHAFTEN: ${answers.question2}
@@ -222,15 +222,23 @@ BUDGET: ${answers.question9}
 VISION: ${answers.question10}
 
 Für jede Nische, gib an:
-1. Nischenname und Kurzbeschreibung
-2. Warum diese Nische perfekt zu diesem Profil passt
-3. Konkrete Geschäftsideen und Monetarisierungsmöglichkeiten
-4. Zielgruppe und deren Schmerzpunkte
-5. Erste Schritte zum Start
-6. Geschätztes Einkommenspotenzial (realistisch)
-7. Erfolgsfaktoren und mögliche Herausforderungen
+1. Nischenname und Kurzbeschreibung (DIGITALES MARKETING)
+2. Warum diese digitale Nische perfekt zu diesem Profil passt
+3. Konkrete digitale Geschäftsmodelle (Online-Kurse, Coaching, digitale Produkte, Affiliate, Content-Business, E-Commerce, etc.)
+4. Zielgruppe und deren konkrete Schmerzpunkte
+5. MARKTANALYSE: Nachfrage, Suchvolumen, Wettbewerb, Erfolgschancen
+6. Erste Schritte zum digitalen Start
+7. Realistisches Einkommenspotenzial (basierend auf Marktdaten)
+8. Erfolgsfaktoren und mögliche Herausforderungen
+9. Beispiele erfolgreicher Player in dieser digitalen Nische
 
-Sei spezifisch, kreativ und fokussiere dich auf ungewöhnliche, wenig überlaufene Nischen mit echtem Potenzial.`;
+WICHTIG: 
+- Die Person kommt möglicherweise aus einem NICHT-DIGITALEN Bereich - deine Aufgabe ist es, ihre Fähigkeiten in DIGITALE MARKETING-NISCHEN zu übersetzen!
+- Fokus auf ONLINE-BUSINESS: Social Media, Content-Marketing, E-Learning, digitale Produkte, Online-Services
+- Wähle Nischen mit NACHWEISBARER NACHFRAGE (Google Trends, Suchvolumen, Zahlungsbereitschaft)
+- Sei SPEZIFISCH und kreativ - keine generischen Vorschläge wie "Social Media Marketing"
+- Ungewöhnliche, wenig überlaufene Nischen mit ECHTEM POTENZIAL
+- Zeige, WIE die Person ihre bestehenden Fähigkeiten digital monetarisieren kann!`;
 
     document.getElementById('chat-screen').style.display = 'none';
     document.getElementById('result-screen').style.display = 'block';
