@@ -1,5 +1,5 @@
-// Ozean-Wächter Chatbot - Original-Gesprächsfluss
-// Aktualisiert mit aktuellen Preisen und Infos
+// Ozean-Wächter Chatbot - Verbesserte Version
+// Mit eigenen Antworten + Produkt-Vorschlägen
 
 const questions = [
     {
@@ -11,7 +11,8 @@ const questions = [
             "Empathisch und menschenorientiert",
             "Abenteuerlustig und risikofreudig",
             "Praktisch und lösungsorientiert"
-        ]
+        ],
+        allowCustom: true
     },
     {
         id: 2,
@@ -23,7 +24,8 @@ const questions = [
             "Reisen, Abenteuer, neue Erfahrungen",
             "Gesundheit, Fitness, Wohlbefinden",
             "Finanzen, Business, Erfolg"
-        ]
+        ],
+        allowCustom: true
     },
     {
         id: 3,
@@ -36,7 +38,8 @@ const questions = [
             "Marketing, Social Media, Verkauf",
             "Organisation, Projektmanagement"
         ],
-        multiple: true
+        multiple: true,
+        allowCustom: true
     },
     {
         id: 4,
@@ -48,7 +51,8 @@ const questions = [
             "Sportler und Gesundheitsbewusste",
             "Studenten und junge Erwachsene",
             "Senioren und Best Ager"
-        ]
+        ],
+        allowCustom: true
     },
     {
         id: 5,
@@ -60,7 +64,8 @@ const questions = [
             "Finanzielle Herausforderungen",
             "Gesundheitliche Themen",
             "Kreative Blockaden"
-        ]
+        ],
+        allowCustom: true
     },
     {
         id: 6,
@@ -72,7 +77,8 @@ const questions = [
             "Mit physischen Produkten",
             "Durch Content (Blog, Video, Podcast)",
             "Automatisiert und skalierbar"
-        ]
+        ],
+        allowCustom: true
     },
     {
         id: 7,
@@ -84,7 +90,8 @@ const questions = [
             "Innovation und Fortschritt",
             "Nachhaltigkeit und Verantwortung",
             "Erfolg und Wachstum"
-        ]
+        ],
+        allowCustom: true
     },
     {
         id: 8,
@@ -94,7 +101,8 @@ const questions = [
             "Teilzeit (10-20 Stunden/Woche)",
             "Vollzeit (40+ Stunden/Woche)",
             "Flexibel, je nach Projekt"
-        ]
+        ],
+        allowCustom: true
     },
     {
         id: 9,
@@ -104,7 +112,8 @@ const questions = [
             "500€ - 2.000€",
             "2.000€ - 5.000€",
             "Über 5.000€"
-        ]
+        ],
+        allowCustom: true
     },
     {
         id: 10,
@@ -116,7 +125,8 @@ const questions = [
             "Ein skalierbares Business aufbauen",
             "Ortsunabhängig leben und arbeiten",
             "Meine Expertise monetarisieren"
-        ]
+        ],
+        allowCustom: true
     }
 ];
 
@@ -150,6 +160,18 @@ function showQuestion() {
             optionsContainer.appendChild(button);
         });
         
+        // Eigene Antwort hinzufügen (für Mehrfachauswahl)
+        if (question.allowCustom) {
+            const customDiv = document.createElement('div');
+            customDiv.style.marginTop = '20px';
+            customDiv.innerHTML = `
+                <input type="text" id="custom-input-multiple" placeholder="Oder gib deine eigene Antwort ein..." 
+                       style="width: 100%; padding: 12px; border: 2px solid #e91e8c; border-radius: 8px; font-size: 16px;">
+                <button onclick="addCustomMultiple()" class="cta-button" style="margin-top: 10px; width: 100%;">+ Eigene Antwort hinzufügen</button>
+            `;
+            optionsContainer.appendChild(customDiv);
+        }
+        
         // "Weiter"-Button für Mehrfachauswahl
         const nextButton = document.createElement('button');
         nextButton.className = 'cta-button';
@@ -166,6 +188,18 @@ function showQuestion() {
             button.onclick = () => selectOption(option);
             optionsContainer.appendChild(button);
         });
+        
+        // Eigene Antwort hinzufügen (für Einzelauswahl)
+        if (question.allowCustom) {
+            const customDiv = document.createElement('div');
+            customDiv.style.marginTop = '20px';
+            customDiv.innerHTML = `
+                <input type="text" id="custom-input" placeholder="Oder gib deine eigene Antwort ein..." 
+                       style="width: 100%; padding: 12px; border: 2px solid #e91e8c; border-radius: 8px; font-size: 16px;">
+                <button onclick="submitCustomAnswer()" class="cta-button" style="margin-top: 10px; width: 100%;">Eigene Antwort absenden</button>
+            `;
+            optionsContainer.appendChild(customDiv);
+        }
     }
 }
 
@@ -181,15 +215,53 @@ function toggleMultipleOption(button, option) {
     }
 }
 
+function addCustomMultiple() {
+    const input = document.getElementById('custom-input-multiple');
+    const customAnswer = input.value.trim();
+    
+    if (customAnswer) {
+        if (!selectedMultiple.includes(customAnswer)) {
+            selectedMultiple.push(customAnswer);
+            
+            // Visuelles Feedback
+            const button = document.createElement('button');
+            button.className = 'option-button selected';
+            button.textContent = customAnswer;
+            button.onclick = () => {
+                selectedMultiple = selectedMultiple.filter(o => o !== customAnswer);
+                button.remove();
+            };
+            
+            const optionsContainer = document.getElementById('options-container');
+            optionsContainer.insertBefore(button, input.parentElement);
+        }
+        
+        input.value = '';
+    } else {
+        alert('Bitte gib eine Antwort ein!');
+    }
+}
+
 function submitMultipleAnswers() {
     if (selectedMultiple.length === 0) {
-        alert('Bitte wähle mindestens eine Option aus!');
+        alert('Bitte wähle mindestens eine Option aus oder gib eine eigene Antwort ein!');
         return;
     }
     
     answers[`question${currentQuestion + 1}`] = selectedMultiple.join(', ');
     selectedMultiple = [];
     nextQuestion();
+}
+
+function submitCustomAnswer() {
+    const input = document.getElementById('custom-input');
+    const customAnswer = input.value.trim();
+    
+    if (customAnswer) {
+        selectOption(customAnswer);
+    } else {
+        alert('Bitte gib eine Antwort ein oder wähle eine Option aus!');
+    }
 }
 
 function selectOption(option) {
@@ -222,15 +294,19 @@ BUDGET: ${answers.question9}
 VISION: ${answers.question10}
 
 Für jede Nische, gib an:
-1. Nischenname und Kurzbeschreibung (DIGITALES MARKETING)
-2. Warum diese digitale Nische perfekt zu diesem Profil passt
-3. Konkrete digitale Geschäftsmodelle (Online-Kurse, Coaching, digitale Produkte, Affiliate, Content-Business, E-Commerce, etc.)
-4. Zielgruppe und deren konkrete Schmerzpunkte
-5. MARKTANALYSE: Nachfrage, Suchvolumen, Wettbewerb, Erfolgschancen
-6. Erste Schritte zum digitalen Start
-7. Realistisches Einkommenspotenzial (basierend auf Marktdaten)
-8. Erfolgsfaktoren und mögliche Herausforderungen
-9. Beispiele erfolgreicher Player in dieser digitalen Nische
+1. **Nischenname und Kurzbeschreibung** (DIGITALES MARKETING)
+2. **Warum diese digitale Nische perfekt zu diesem Profil passt**
+3. **KONKRETE PRODUKT-VORSCHLÄGE** (mindestens 3-5 WOW-Produkte):
+   - Jedes Produkt muss: EINZIGARTIG + MEHRWERT + PROBLEMLÖSUNG + WOW-EFFEKT haben
+   - Beispiele: Online-Kurse, Coaching-Programme, digitale Tools, Membership-Bereiche, E-Books, Vorlagen, Software, Apps
+   - Sei KREATIV und SPEZIFISCH - keine generischen Vorschläge!
+   - Zeige, WARUM jedes Produkt hohe Nachfrage haben wird
+4. **Zielgruppe und deren konkrete Schmerzpunkte**
+5. **MARKTANALYSE**: Nachfrage, Suchvolumen, Wettbewerb, Erfolgschancen (mit Zahlen!)
+6. **Erste Schritte zum digitalen Start** (konkrete Aktionsschritte)
+7. **Realistisches Einkommenspotenzial** (basierend auf Marktdaten)
+8. **Erfolgsfaktoren und mögliche Herausforderungen**
+9. **Beispiele erfolgreicher Player** in dieser digitalen Nische
 
 WICHTIG: 
 - Die Person kommt möglicherweise aus einem NICHT-DIGITALEN Bereich - deine Aufgabe ist es, ihre Fähigkeiten in DIGITALE MARKETING-NISCHEN zu übersetzen!
@@ -238,7 +314,17 @@ WICHTIG:
 - Wähle Nischen mit NACHWEISBARER NACHFRAGE (Google Trends, Suchvolumen, Zahlungsbereitschaft)
 - Sei SPEZIFISCH und kreativ - keine generischen Vorschläge wie "Social Media Marketing"
 - Ungewöhnliche, wenig überlaufene Nischen mit ECHTEM POTENZIAL
-- Zeige, WIE die Person ihre bestehenden Fähigkeiten digital monetarisieren kann!`;
+- Zeige, WIE die Person ihre bestehenden Fähigkeiten digital monetarisieren kann!
+- Die PRODUKT-VORSCHLÄGE müssen KNALLER sein - WOW-Effekt garantiert!
+- Jedes Produkt muss eine EINZIGARTIGE LÖSUNG für ein DRINGENDES PROBLEM bieten!
+
+ZUSÄTZLICH: Erstelle am Ende eine zusammenfassende PDF-Struktur mit:
+- Übersicht aller Nischen
+- Top 3 Produkt-Ideen pro Nische
+- Konkrete nächste Schritte
+- Ressourcen und Tools
+
+Bitte strukturiere deine Antwort klar und übersichtlich mit Überschriften und Aufzählungen.`;
 
     document.getElementById('chat-screen').style.display = 'none';
     document.getElementById('result-screen').style.display = 'block';
