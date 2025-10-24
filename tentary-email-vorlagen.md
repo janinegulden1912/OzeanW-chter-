@@ -1,4 +1,4 @@
-# Tentary E-Mail-Vorlagen für Ozean-Wächter
+# E-Mail-Vorlagen für Tentary (AKTUALISIERT mit WhatsApp-Community)
 
 ## VIP-Paket (15€)
 
@@ -49,10 +49,23 @@ ozean2025premium
 
 **Was du jetzt bekommst:**
 
-✅ **Ozean-Wächter** - Dein persönlicher Nischen-Finder (10 Fragen, maßgeschneiderter KI-Prompt)
-✅ **Vertrauensmaschine-Inhalte** - Alle Zusatzmaterialien und PDFs
-✅ **5 Premium-PDFs** - Digital Marketing Guide, E-Mail-Vorlagen, Werbetexte, Zahlungsanbieter-Vergleich, MRR-Anleitung
-✅ **Master Resell Rights (MRR)** - Verkaufe die Vertrauensmaschine weiter und behalte 100% der Einnahmen!
+✅ **Ozean-Wächter Chatbot** - 10 intelligente Fragen + personalisierter KI-Prompt mit Produkt-Vorschlägen
+✅ **Die Vertrauensmaschine** - Interaktives Canva-Design mit Videos
+✅ **5 Premium-PDFs:**
+   - Digital Marketing Starter-Guide
+   - E-Mail-Vorlagen
+   - Werbetexte-Sammlung
+   - Zahlungsanbieter-Vergleich 2025
+   - Nach der Nische - So geht's weiter!
+✅ **2 Bonus Canva-Vorlagen:**
+   - Affiliate-Marketing Checkliste
+   - Digitales Marketing ganz easy erklärt
+✅ **Master Resell Rights (MRR)** - Verkaufe alles weiter und behalte 100% der Einnahmen!
+
+**📱 Tritt unserer exklusiven WhatsApp-Community bei:**
+https://chat.whatsapp.com/EJvR88Hv81GEs1Oe8wUHyQ?mode=wwt
+
+Tausche dich mit anderen Mitgliedern aus, stelle Fragen und feiere deine Erfolge!
 
 **So geht's weiter:**
 
@@ -96,14 +109,14 @@ In wenigen Minuten erhältst du eine zweite E-Mail mit deinem persönlichen Zuga
 
 **Was dich erwartet:**
 
-Der Ozean-Wächter stellt dir 10 tiefgehende Fragen zu deiner Persönlichkeit, deinen Leidenschaften und Fähigkeiten. Am Ende erhältst du einen maßgeschneiderten Prompt, den du in jede KI deiner Wahl eingeben kannst - und die KI findet für dich 2-3 hochprofitable, einzigartige digitale Marketing-Nischen.
+Der Ozean-Wächter stellt dir 10 tiefgehende Fragen zu deiner Persönlichkeit, deinen Leidenschaften und Fähigkeiten. Am Ende erhältst du einen maßgeschneiderten Prompt, den du in jede KI deiner Wahl eingeben kannst - und die KI findet für dich 2-3 hochprofitable, einzigartige digitale Marketing-Nischen mit konkreten Produkt-Vorschlägen!
 
-Ich bin gespannt, welche Nische der Ozean-Wächter für dich entdeckt! 🌊
+Ich bin gespannt, was der Ozean-Wächter für dich entdeckt! 🌊
 
 Herzliche Grüße
 [DEINE SIGNATUR]
 
-P.S.: Falls du Fragen hast, antworte einfach auf diese E-Mail. Ich bin für dich da!
+P.S.: Falls du Fragen hast, antworte einfach auf diese E-Mail!
 
 ---
 
@@ -115,7 +128,7 @@ P.S.: Falls du Fragen hast, antworte einfach auf diese E-Mail. Ich bin für dich
 
 Hallo [VORNAME],
 
-hier sind deine Zugangsdaten zur Vertrauensmaschine:
+hier sind deine Zugangsdaten:
 
 **🔗 Login-Seite:**
 https://ozean-waechter.netlify.app/login.html
@@ -125,22 +138,30 @@ ozean2025standard
 
 **Was du jetzt bekommst:**
 
-✅ **Ozean-Wächter** - Dein persönlicher Nischen-Finder (10 Fragen, maßgeschneiderter KI-Prompt)
-✅ **Vertrauensmaschine-Inhalte** - Alle Zusatzmaterialien und PDFs
-✅ **5 Premium-PDFs** - Digital Marketing Guide, E-Mail-Vorlagen, Werbetexte, Zahlungsanbieter-Vergleich, MRR-Anleitung
+✅ **Ozean-Wächter Chatbot** - 10 intelligente Fragen + personalisierter KI-Prompt mit Produkt-Vorschlägen
+✅ **Die Vertrauensmaschine** - Interaktives Canva-Design mit Videos
+✅ **5 Premium-PDFs:**
+   - Digital Marketing Starter-Guide
+   - E-Mail-Vorlagen
+   - Werbetexte-Sammlung
+   - Zahlungsanbieter-Vergleich 2025
+   - Nach der Nische - So geht's weiter!
+✅ **Bonus:** Affiliate-Marketing Checkliste (Canva)
+
+**📱 Tritt unserer exklusiven WhatsApp-Community bei:**
+https://chat.whatsapp.com/EJvR88Hv81GEs1Oe8wUHyQ?mode=wwt
+
+Tausche dich mit anderen Mitgliedern aus, stelle Fragen und feiere deine Erfolge!
 
 **So geht's weiter:**
 
 1. Klicke auf den Login-Link oben
 2. Gib dein Passwort ein
 3. Starte den Ozean-Wächter
-4. Beantworte die 10 Fragen
+4. Beantworte die 10 Fragen (du kannst auch eigene Antworten eingeben!)
 5. Erhalte deinen personalisierten Nischen-Prompt
 6. Füge den Prompt in deine Lieblings-KI ein (Claude, ChatGPT, Gemini oder Perplexity)
-
-**Tipp:**
-
-Nimm dir Zeit für die 10 Fragen und antworte ehrlich. Je authentischer deine Antworten, desto besser passt die Nische zu DIR - und desto erfolgreicher wirst du sein!
+7. Die KI liefert dir 2-3 einzigartige Nischen mit WOW-Produkt-Ideen!
 
 Viel Erfolg auf deiner Nischen-Reise! 🌊✨
 
@@ -155,112 +176,104 @@ P.S.: Speichere diese E-Mail gut ab - hier stehen deine Zugangsdaten!
 
 ### E-Mail 1: Dankes-E-Mail (direkt nach Kauf)
 
-**Betreff:** 🏆 Willkommen im Premium-Kreis der Vertrauensmaschine!
+**Betreff:** 🚀 Willkommen im Premium-Club der Vertrauensmaschine!
 
 **Text:**
 
 Hallo [VORNAME],
 
-WOW! Du hast dich für das Premium-Paket entschieden - das zeigt mir, dass du es ernst meinst mit deinem digitalen Business! 🏆
+WOW! Herzlich willkommen im Premium-Club! 🚀
 
-Ich freue mich riesig, dich auf deiner Reise zu begleiten!
+Du hast gerade die beste Investition in deine digitale Zukunft gemacht - nicht nur für dich selbst, sondern auch als Wiederverkäufer!
 
-**Was jetzt passiert:**
+**Was dich erwartet:**
 
-In wenigen Minuten erhältst du eine zweite E-Mail mit deinem persönlichen Premium-Zugang. Dort wartet nicht nur der Ozean-Wächter auf dich, sondern auch die Master Resell Rights (MRR) - du kannst die Vertrauensmaschine selbst weiterverkaufen und 100% der Einnahmen behalten!
+In wenigen Minuten erhältst du deine Zugangsdaten. Als Premium-Mitglied bekommst du nicht nur Zugang zum Ozean-Wächter und allen Materialien, sondern auch die **Master Resell Rights (MRR)**.
 
-**Dein Premium-Vorteil:**
+**Das bedeutet:**
 
-Mit dem Premium-Paket bekommst du ALLES:
-- Den Ozean-Wächter für deine eigene Nischenfindung
-- Alle Premium-Materialien und PDFs
-- Die MRR-Lizenz zum Weiterverkauf
-- Alle Marketing-Materialien, die du brauchst
+✅ Du kannst die komplette Vertrauensmaschine weiterverkaufen
+✅ Du behältst 100% der Einnahmen
+✅ Du bekommst alle Marketing-Materialien
+✅ Du bekommst fertige E-Mail-Vorlagen für deine Kunden
+✅ Du bekommst die komplette Landingpage zum Teilen
 
-Du kannst also nicht nur deine eigene Nische finden, sondern auch ein zweites Standbein aufbauen, indem du die Vertrauensmaschine weiterverkaufst!
+Du baust also nicht nur DEIN Business auf, sondern kannst auch anderen helfen, ihre Nische zu finden - und dabei verdienen!
 
-Ich bin gespannt, welche Nische der Ozean-Wächter für dich findet - und wie erfolgreich du mit dem Wiederverkauf sein wirst! 🌊💰
+Ich freue mich riesig, dich als Partner an Bord zu haben! 🌊
 
 Herzliche Grüße
 [DEINE SIGNATUR]
 
-P.S.: Falls du Fragen hast, antworte einfach auf diese E-Mail. Ich bin für dich da!
+P.S.: Falls du Fragen hast, antworte einfach auf diese E-Mail. Ich unterstütze dich gerne!
 
 ---
 
 ### E-Mail 2: Zugangs-E-Mail (mit Login und Passwort)
 
-**Betreff:** 🔑 Dein Premium-Zugang zur Vertrauensmaschine + MRR
+**Betreff:** 🔑 Dein Premium-Zugang + MRR-Materialien
 
 **Text:**
 
 Hallo [VORNAME],
 
-hier sind deine Premium-Zugangsdaten zur Vertrauensmaschine:
+hier sind deine Premium-Zugangsdaten:
 
 **🔗 Login-Seite:**
 https://ozean-waechter.netlify.app/login.html
 
-**🔐 Dein Premium-Passwort:**
+**🔐 Dein Passwort:**
 ozean2025premium
 
 **Was du jetzt bekommst:**
 
-✅ **Ozean-Wächter** - Dein persönlicher Nischen-Finder (10 Fragen, maßgeschneiderter KI-Prompt)
-✅ **Vertrauensmaschine-Inhalte** - Alle Zusatzmaterialien und PDFs
-✅ **5 Premium-PDFs** - Digital Marketing Guide, E-Mail-Vorlagen, Werbetexte, Zahlungsanbieter-Vergleich, MRR-Anleitung
-✅ **Master Resell Rights (MRR)** - Verkaufe die Vertrauensmaschine weiter und behalte 100% der Einnahmen!
-✅ **MRR-Marketing-Materialien** - Alles, was du zum Weiterverkauf brauchst
+✅ **ALLES aus dem Standard-Paket:**
+   - Ozean-Wächter Chatbot (10 Fragen + eigene Antworten möglich)
+   - Die Vertrauensmaschine (Canva mit Videos)
+   - 5 Premium-PDFs
+   - Affiliate-Marketing Checkliste
+
+✅ **PLUS: Master Resell Rights (MRR)**
+   - MRR-Lizenz (deine Rechte & Pflichten)
+   - MRR-Anleitung (Schritt-für-Schritt)
+   - Digitales Marketing erklärt (Canva)
+   - Fertige Werbetexte für deine Kunden
+   - E-Mail-Vorlagen für deine Kunden
+   - Landingpage-Link zum Teilen: https://ozean-waechter.netlify.app
+   - Passwörter für deine Kunden
+
+**📱 Tritt unserer exklusiven WhatsApp-Community bei:**
+https://chat.whatsapp.com/EJvR88Hv81GEs1Oe8wUHyQ?mode=wwt
+
+Tausche dich mit anderen Premium-Mitgliedern aus, stelle Fragen und feiere deine Erfolge!
 
 **So geht's weiter:**
 
-**1. Für deine eigene Nischenfindung:**
-1. Klicke auf den Login-Link oben
-2. Gib dein Passwort ein
-3. Starte den Ozean-Wächter
-4. Beantworte die 10 Fragen
-5. Erhalte deinen personalisierten Nischen-Prompt
-6. Füge den Prompt in deine Lieblings-KI ein
+**Für dich selbst:**
+1. Logge dich ein
+2. Starte den Ozean-Wächter
+3. Finde deine Nische
 
-**2. Für den Wiederverkauf:**
+**Als Wiederverkäufer:**
 1. Gehe zum MRR-Bereich im Mitgliederbereich
-2. Lade alle Materialien herunter
-3. Lies die MRR-Lizenz genau durch
-4. Richte deinen Verkaufskanal ein (z.B. Tentary)
-5. Starte mit dem Verkauf!
+2. Lade die MRR-Lizenz herunter
+3. Lies die MRR-Anleitung
+4. Nutze die fertigen Marketing-Materialien
+5. Teile die Landingpage: https://ozean-waechter.netlify.app
+6. Verkaufe die Vertrauensmaschine für 95€ - 600€ (deine Wahl!)
+7. Behalte 100% der Einnahmen!
 
-**Wichtig für Wiederverkäufer:**
-
-Im MRR-Bereich findest du:
-- Die komplette MRR-Lizenz mit allen Bedingungen
-- Marketing-Materialien (Texte, Grafiken)
-- E-Mail-Vorlagen für deine Kunden
-- Anleitung zur Einrichtung deines Verkaufskanals
-
-Viel Erfolg - sowohl mit deiner eigenen Nische als auch mit dem Wiederverkauf! 🌊💰✨
+Viel Erfolg - sowohl mit deiner eigenen Nische als auch als Wiederverkäufer! 🚀✨
 
 Herzliche Grüße
 [DEINE SIGNATUR]
 
-P.S.: Speichere diese E-Mail gut ab - hier stehen deine Zugangsdaten!
+P.S.: Speichere diese E-Mail gut ab - hier stehen alle wichtigen Infos!
 
 ---
 
-## Anleitung für Tentary
+## Platzhalter zum Ersetzen in Tentary:
 
-**So fügst du die E-Mails in Tentary ein:**
-
-1. Gehe zu deinem Tentary-Dashboard
-2. Wähle dein Produkt "Vertrauensmaschine / Ozean-Wächter"
-3. Gehe zu "E-Mail-Automatisierung"
-4. Erstelle für jedes Paket (VIP, Standard, Premium) zwei E-Mails:
-   - E-Mail 1: Wird sofort nach Kauf versendet
-   - E-Mail 2: Wird 5 Minuten nach Kauf versendet
-5. Kopiere die Texte oben und ersetze:
-   - `[VORNAME]` mit dem Tentary-Platzhalter für Vornamen
-   - `[DEINE SIGNATUR]` mit deinem Namen und ggf. Link zu deiner Website
-
-**Fertig!** 🎉
-
-Deine Kunden erhalten automatisch die passenden E-Mails nach dem Kauf.
+- `[VORNAME]` → Tentary-Platzhalter für Vorname
+- `[DEINE SIGNATUR]` → Dein Name, Website-Link, Social Media
 
